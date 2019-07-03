@@ -1,23 +1,23 @@
 # wow.js
 使用方法
 
-1、引入文件 
-<link rel="stylesheet" href="css/animate.css">
+<p>1、引入文件</p>
+<pre><code class="html">&lt;link rel="stylesheet" href="css/animate.min.css"&gt;
+</code></pre>
+<p>2、HTML</p>
+<pre><code class="html">&lt;div class="wow slideInLeft"&gt;&lt;/div&gt;
+&lt;div class="wow slideInRight"&gt;&lt;/div&gt;
+</code></pre>
+<p>可以加入 data-wow-duration（动画持续时间）和 data-wow-delay（动画延迟时间）属性，如：</p>
+<pre><code class="html">&lt;div class="wow slideInLeft" data-wow-duration="2s" data-wow-delay="5s"&gt;&lt;/div&gt;
+&lt;div class="wow slideInRight" data-wow-offset="10"  data-wow-iteration="10"&gt;&lt;/div&gt;
+</code></pre>
+<p>3、JavaScript</p>
+<pre><code class="js">new WOW().init();
+</code></pre>
 
-2、HTML
-<div class="wow slideInLeft"></div>
-<div class="wow slideInRight"></div>
-vcbcbcv
-可以加入 data-wow-duration（动画持续时间）和 data-wow-delay（动画延迟时间）属性，如：
-
-<div class="wow slideInLeft" data-wow-duration="2s" data-wow-delay="5s"></div>
-<div class="wow slideInRight" data-wow-offset="10"  data-wow-iteration="10"></div>
-3、JavaScript
-
-new WOW().init();
-如果需要自定义配置，可如下使用：
-
-var wow = new WOW({
+<p>如果需要自定义配置，可如下使用：</p>
+<pre><code class="js">var wow = new WOW({
     boxClass: 'wow',
     animateClass: 'animated',
     offset: 0,
@@ -25,6 +25,7 @@ var wow = new WOW({
     live: true
 });
 wow.init();
+</code></pre>
 
 选项配置
 <table class="main_table" border="0" cellspacing="0" cellpadding="0" width="100%">
