@@ -1,6 +1,8 @@
 # wow.js
 使用方法
-1、引入文件 <link rel="stylesheet" href="css/animate.min.css">
+
+1、引入文件 <link rel="styefuiewf "
+><link rel="stylesheet" href="css/animate.min.css">
 
 2、HTML
 
